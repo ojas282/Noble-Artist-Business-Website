@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="left">
+            <p>Sign Up to become a member.</p>
+        </div>
+        <div class="right">
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+    <div class="middlebar">
+
+        <div class="brand">
+            <img height="90px" width="90px" src="css/images/brand-logo.jpg" alt="Brand-Logo">
+
+            <h3>The Noble Artist</h3>
+        </div>
+
+        <div class="search">
+
+            <form class="d-flex">
+                <input width="600px" class="form-control me-2" type="search" placeholder="Enter your Keyword..."
+                    aria-label="Search">
+                <button class="btn" type="submit"><img height="25px" width="25px" src="css/images/search-icon.png"
+                        alt=""></button>
+            </form>
+
+        </div>
+
+        <div class="contact">
+            <div class="whatsapp-image">
+                <img src="css/images/Whats-app logo.png" alt="Whats-app">
+            </div>
+            <div class="number">
+                <p>Connect on Whatsapp: <a href="https://api.whatsapp.com/send?phone=8127072102"
+                        target="_blank">+91-8127072102</a>
+                </p>
+                <p>Email: <a href="mailto:artistthenoble@gmail.com">artistthenoble@gmail.com</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="navbar">
+        <ul class="navlist">
+            <li class="navlist-item">
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="navlist-item" id="item-2">
+                <a href="index.html">PRODUCTS</a>
+            </li>
+            <li class="navlist-item">
+                <a href="#">BLOG</a>
+            </li>
+            <li class="navlist-item" id="item-4">
+                <a href="https://trackon.in/" target="_blank">TRACK ORDER</a>
+            </li>
+            <li class="navlist-item">
+                <a href="#">HELP</a>
+            </li>
+            <li class="navlist-item" id="item-2">
+                <a href="index.html">REVIEWS</a>
+            </li>
+        </ul>
+
+        <a class="carta" href="mycart.html"><div class="cart">
+            <img height="60px" width="80px" src="css/images/cart.png" alt="cart">
+            <p>MY CART</p>
+        </div>
+        </a>
+    </div>
+
+
+    <div class="banner">
+        <h1 class="gradient2-text">Blend Arts</h1>
+    </div>
+
+    <div class="row producta">
+        <div class="col sid1">
+            <div id="carouselExampleControls" class="carousel slide c-itema" data-bs-ride="carousel">
+                <div class="carousel-inner c-items">
+                    <div class="carousel-item active c-item">
+                        <img height="450px" width="400px" src="css/images/Products/blend/1.png" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img height="450px" width="400px" src="css/images/Products/blend/2.png" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img height="450px" width="400px" src="css/images/Products/blend/3.png" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img height="450px" width="400px" src="css/images/Products/blend/4.png" class="d-block w-100"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="vl">
+
+            </div>
+
+        </div>
+        <div class="col col2products sid2">
+            <h2>Blend Arts</h2>
+            <div class="to">
+                <h2><strong>&#8377;699/-</strong></h2>
+                <p>Pack of 4.</p>
+            </div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p>"Get your arts with your favourite</p>
+            <p>person, you admire."</p>
+            <button class="btn btn-lg addtocart cart-itema-8" onclick="func_cart_itema_8();" type="submit"><img height="40px" width="50px" src="css/images/cart.png"
+                    alt="cart">Add to cart</button>
+        </div>
+    </div>
+
+    <div class="container tabsa">
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+            <button class="tablinks" onclick="openCity(event, 'Review')">Review</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Description" class="tabcontent">
+            <p>Have you recently lost someone? and doesn't even have a picture of them? or do you admire a famous celebrity and want to take a picture with them? or do you want to be a character? Don't worry, we've got you covered! Introducing our blend arts, where we combine your photo with another person's photo to create an art that is available in soft copies as well as frames.
+                Only 699/- for all over India.</p> 
+                <p>Delivery charges may apply.</p>
+        </div>
+
+        <div id="Review" class="tabcontent">
+            <p>Paris is the capital of France.</p>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="other-products-heading">
+            <h1>More Products</h1>
+        </div>
+        <div class="row other-products other-products2">
+            <div class="col">
+                <a href="wallet_cards.html"><img height="200px" width="250px" src="css/images/other-products/w.png" alt="other"></a>
+                <h1>Wallet Cards</h1>
+                <h2><strong>&#8377;499/-</strong></h2>
+                <span class="fa fa-star checked bc"></span>
+                <span class="fa fa-star checked bc"></span>
+                <span class="fa fa-star checked bc"></span>
+                <span class="fa fa-star checked bc"></span>
+                <span class="fa fa-star checked bc"></span>
+            </div>
+            <div class="col">
+                <a href="illustrated_frames.html"><img height="200px" width="250px" src="css/images/other-products/f.png" alt="other"></a>
+                <h1>Illustrated Frames</h1>
+                <h2><strong>&#8377;599/-</strong></h2>
+                <span class="fa fa-star checked ifc"></span>
+                <span class="fa fa-star checked ifc"></span>
+                <span class="fa fa-star checked ifc"></span>
+                <span class="fa fa-star checked ifc"></span>
+                <span class="fa fa-star checked ifc"></span>
+            </div>
+            <div class="col">
+                <a href="photowallet_cards.html"><img height="200px" width="250px" src="css/images/other-products/p.png" alt="other"></a>
+                <h1>Photo Wallet Cards</h1>
+                <h2><strong>&#8377;359/-</strong></h2>
+                <span class="fa fa-star checked fwc"></span>
+                <span class="fa fa-star checked fwc"></span>
+                <span class="fa fa-star checked fwc"></span>
+                <span class="fa fa-star checked fwc"></span>
+                <span class="fa fa-star fwc5"></span>
+            </div>
+            <div class="col">
+                <a href="bookmarks.html"><img height="200px" width="250px" src="css/images/other-products/b.png" alt="other"></a>
+                <h1>Bookmarks</h1>
+                <h2><strong>&#8377;399/-</strong></h2>
+                <span class="fa fa-star checked bac"></span>
+                <span class="fa fa-star checked bac"></span>
+                <span class="fa fa-star checked bac"></span>
+                <span class="fa fa-star checked bac"></span>
+                <span class="fa fa-star fwc5"></span>
+            </div>
+        </div>
+        <div class="row other-products other-products3">
+            <div class="col">
+                <a href="polaroids.html"><img height="200px" width="250px" src="css/images/other-products/pola.png" alt="other"></a>
+                <h1>Polaroids</h1>
+                <h2><strong>&#8377;399/-</strong></h2>
+                <span class="fa fa-star checked pc"></span>
+                <span class="fa fa-star checked pc"></span>
+                <span class="fa fa-star checked pc"></span>
+                <span class="fa fa-star checked pc"></span>
+                <span class="fa fa-star pc5"></span>
+            </div>
+            <div class="col">
+                <a href="mini_frames.html"><img height="200px" width="250px" src="css/images/other-products/min.png" alt="other"></a>
+                <h1>MINI-Frames</h1>
+                <h2><strong>&#8377;399/-</strong></h2>
+                <span class="fa fa-star checked mfc"></span>
+                <span class="fa fa-star checked mfc"></span>
+                <span class="fa fa-star checked mfc"></span>
+                <span class="fa fa-star checked mfc"></span>
+                <span class="fa fa-star checked mfc"></span>
+            </div>
+            <div class="col">
+                <a href="stickers.html"><img height="200px" width="250px" src="css/images/other-products/stick.png" alt="other"></a>
+                <h1>Stickers</h1>
+                <h2><strong>&#8377;249/-</strong></h2>
+                <span class="fa fa-star checked sc"></span>
+                <span class="fa fa-star checked sc"></span>
+                <span class="fa fa-star checked sc"></span>
+                <span class="fa fa-star checked sc"></span>
+                <span class="fa fa-star checked sc"></span>
+            </div>
+            <div class="col">
+                <a href="digital_invitations.html"><img height="200px" width="250px" src="css/images/other-products/digital.png" alt="other"></a>
+                <h1>Digital Invitations</h1>
+                <h2><strong>&#8377;1499/-</strong></h2>
+                <span class="fa fa-star checked dic"></span>
+                <span class="fa fa-star checked dic"></span>
+                <span class="fa fa-star checked dic"></span>
+                <span class="fa fa-star checked dic"></span>
+                <span class="fa fa-star checked dic"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="brand brand2">
+                        <img height="120px" width="120px" src="css/images/brand-logo.jpg" alt="Brand-Logo">
+
+                        <h3>The Noble Artist</h3>
+                    </div>
+                    <div class="location">
+                        <a href="https://goo.gl/maps/NDSbfjoKTBmAzGW77" target="_blank"><img height="35px" width="35px"
+                                src="css/images/location.png" alt="location"></a>
+                        <a href="https://goo.gl/maps/NDSbfjoKTBmAzGW77" target="_blank">Lucknow, Uttar Pradesh -
+                            226017</a>
+                    </div>
+
+                    <div class="mails">
+                        <a href="mailto:artistthenoble@gmail.com" target="_blank"><img style="margin-left: 5px;"
+                                height="25px" width="25px" src="css/images/whitemail.png" alt="mail"></a>
+                        <a style="margin-left: 5px;" href="mailto:artistthenoble@gmail.com"
+                            target="_blank">artistthenoble@gmail.com</a>
+                    </div>
+
+                    <div class="whatsapps">
+                        <a href="https://api.whatsapp.com/send?phone=8127072102" target="_blank"><img height="40px"
+                                width="40px" src="css/images/Whats-app logo.png" alt="whatsapp"></a>
+                        <a href="https://api.whatsapp.com/send?phone=8127072102" target="_blank">+91-8127072102</a>
+                    </div>
+
+                </div>
+                <div class="col points">
+                    <div class="row social-div">
+                        <ul class="social-login-icons">
+                            <li class="social-icons">
+                                <a href="#"><img height="30px" width="30px" src="css/images/facebook.png"
+                                        alt="facebook"></a>
+                            </li>
+                            <li class="social-icons">
+                                <a href="https://instagram.com/thenobleartist_?igshid=NTdlMDg3MTY=" target="_blank"><img
+                                        height="30px" width="30px" src="css/images/instagram.png" alt="instagram"></a>
+                            </li>
+                            <li class="social-icons">
+                                <a href="#"><img height="30px" width="30px" src="css/images/linkedin.png"
+                                        alt="linkedin"></a>
+                            </li>
+                            <li class="social-icons">
+                                <a href="#"><img height="30px" width="30px" src="css/images/twitter.png"
+                                        alt="twitter"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row points-div">
+                        <div class="col">
+                            <h2 class="help-h">HELP</h2>
+                            <ul class="help-items">
+                                <li class="help-item">Gift Cards</li>
+                                <li class="help-item">Order Status</li>
+                                <li class="help-item">Free Shipping</li>
+                                <li class="help-item">Return & Exchange</li>
+                                <li class="help-item">International</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h2 class="guidance-h">GUIDANCE</h2>
+                            <ul class="guidance-items">
+                                <li class="guidance-item"> Delivery Information</li>
+                                <li class="guidance-item">Privacy Policy</li>
+                                <li class="guidance-item">Terms & Conditions</li>
+                                <li class="guidance-item">Contact</li>
+                                <li class="guidance-item">Sitemap</li>
+                            </ul>
+                        </div>
+                        <div class="col guidance-div">
+                            <h2 class="information-h">INFORMATION</h2>
+                            <ul class="information-items">
+                                <li class="information-item">Delivery Information</li>
+                                <li class="information-item">Privacy Policy</li>
+                                <li class="information-item">Terms & Conditions</li>
+                                <li class="information-item">Contact</li>
+                                <li class="information-item">Sitemap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="copyr">
+        <p>&#169; 2023 All Rights Reserved. Designed by GA53</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
